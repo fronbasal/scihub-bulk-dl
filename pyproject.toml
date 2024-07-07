@@ -11,6 +11,8 @@ requests = "^2.32.3"
 beautifulsoup4 = "^4.12.3"
 click = "^8.1.7"
 
+[tool.poetry.scripts]
+scihub-dl = "scihub_dl.cli:main"
 
 [build-system]
 requires = ["poetry-core"]
